@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Сортировка массива</title>
+</head>
+
+<body>
+    <h1>Сортировка массивов</h1>
+    <h2>Массивы русских слов</h2>
+    <div class="container1">
+        <div class="inputs1">
+            <input type="text" class="input-width" id="words1">
+            <input type="text" class="input-width" id="words2">
+            <input type="text" class="input-width" id="words3">
+            <input type="text" class="input-width" id="words4">
+            <input type="text" class="input-width" id="words5">
+            <input type="text" class="input-width" id="words6">
+            <input type="text" class="input-width" id="words7">
+            <input type="text" class="input-width" id="words8">
+            <input type="text" class="input-width" id="words9">
+            <input type="text" class="input-width" id="words10">
+            <input type="text" class="input-width" id="words11">
+            <input type="text" class="input-width" id="words12">
+            <input type="text" class="input-width" id="words13">
+            <input type="text" class="input-width" id="words14">
+            <input type="text" class="input-width" id="words15">
+            <input type="text" class="input-width" id="words16">
+            <input type="text" class="input-width" id="words17">
+            <input type="text" class="input-width" id="words18">
+            <input type="text" class="input-width" id="words19">
+            <input type="text" class="input-width" id="words20">
+        </div>
+        <div class="inputs2">
+            <input type="text" class="input-width" id="words21">
+            <input type="text" class="input-width" id="words22">
+            <input type="text" class="input-width" id="words23">
+            <input type="text" class="input-width" id="words24">
+            <input type="text" class="input-width" id="words25">
+            <input type="text" class="input-width" id="words26">
+            <input type="text" class="input-width" id="words27">
+            <input type="text" class="input-width" id="words28">
+            <input type="text" class="input-width" id="words29">
+            <input type="text" class="input-width" id="words30">
+            <input type="text" class="input-width" id="words31">
+            <input type="text" class="input-width" id="words32">
+            <input type="text" class="input-width" id="words33">
+            <input type="text" class="input-width" id="words34">
+            <input type="text" class="input-width" id="words35">
+            <input type="text" class="input-width" id="words36">
+            <input type="text" class="input-width" id="words37">
+            <input type="text" class="input-width" id="words38">
+            <input type="text" class="input-width" id="words39">
+            <input type="text" class="input-width" id="words40">
+        </div>
+        <div class="inputs3">
+            <input type="text" class="input-width" id="words41">
+            <input type="text" class="input-width" id="words42">
+            <input type="text" class="input-width" id="words43">
+            <input type="text" class="input-width" id="words44">
+            <input type="text" class="input-width" id="words45">
+            <input type="text" class="input-width" id="words46">
+            <input type="text" class="input-width" id="words47">
+            <input type="text" class="input-width" id="words48">
+            <input type="text" class="input-width" id="words49">
+            <input type="text" class="input-width" id="words50">
+            <input type="text" class="input-width" id="words51">
+            <input type="text" class="input-width" id="words52">
+            <input type="text" class="input-width" id="words53">
+            <input type="text" class="input-width" id="words54">
+            <input type="text" class="input-width" id="words55">
+            <input type="text" class="input-width" id="words56">
+            <input type="text" class="input-width" id="words57">
+            <input type="text" class="input-width" id="words58">
+            <input type="text" class="input-width" id="words59">
+            <input type="text" class="input-width" id="words60">
+        </div>
+        <div class="inputs4">
+            <input type="text" class="input-width" id="words61">
+            <input type="text" class="input-width" id="words62">
+            <input type="text" class="input-width" id="words63">
+            <input type="text" class="input-width" id="words64">
+            <input type="text" class="input-width" id="words65">
+            <input type="text" class="input-width" id="words66">
+            <input type="text" class="input-width" id="words67">
+            <input type="text" class="input-width" id="words68">
+            <input type="text" class="input-width" id="words69">
+            <input type="text" class="input-width" id="words70">
+            <input type="text" class="input-width" id="words71">
+            <input type="text" class="input-width" id="words72">
+            <input type="text" class="input-width" id="words73">
+            <input type="text" class="input-width" id="words74">
+            <input type="text" class="input-width" id="words75">
+            <input type="text" class="input-width" id="words76">
+            <input type="text" class="input-width" id="words77">
+            <input type="text" class="input-width" id="words78">
+            <input type="text" class="input-width" id="words79">
+            <input type="text" class="input-width" id="words80">
+        </div>
+        <div class="inputs5">
+            <input type="text" class="input-width" id="words81">
+            <input type="text" class="input-width" id="words82">
+            <input type="text" class="input-width" id="words83">
+            <input type="text" class="input-width" id="words84">
+            <input type="text" class="input-width" id="words85">
+            <input type="text" class="input-width" id="words86">
+            <input type="text" class="input-width" id="words87">
+            <input type="text" class="input-width" id="words88">
+            <input type="text" class="input-width" id="words89">
+            <input type="text" class="input-width" id="words90">
+            <input type="text" class="input-width" id="words91">
+            <input type="text" class="input-width" id="words92">
+            <input type="text" class="input-width" id="words93">
+            <input type="text" class="input-width" id="words94">
+            <input type="text" class="input-width" id="words95">
+            <input type="text" class="input-width" id="words96">
+            <input type="text" class="input-width" id="words97">
+            <input type="text" class="input-width" id="words98">
+            <input type="text" class="input-width" id="words99">
+            <input type="text" class="input-width" id="words100">
+        </div>
+    </div>
+    <h3>Количество уникальных слов</h3>
+    <p id="1uniq-rus">В первом массиве:</p>
+    <p id="2uniq-rus">Во втором массиве:</p>
+    <p id="3uniq-rus">В третьем массиве:</p>
+    <p id="4uniq-rus">В четвертом массиве:</p>
+    <p id="5uniq-rus">В пятом массиве:</p>
+    <p id="alluniq-rus">Среди всех массивов:</p>
+    <h3>Наиболее частро встречающееся слово</h3>
+    <p id="1often-rus">В первом массиве:</p>
+    <p id="2often-rus">Во втором массиве:</p>
+    <p id="3often-rus">В третьем массиве:</p>
+    <p id="4often-rus">В четвертом массиве:</p>
+    <p id="5often-rus">В пятом массиве:</p>
+    <p id="alloften-rus">Среди всех массивов:</p>
+    <button id="sort-rus">Сортировка массивов русских слов</button>
+    <button id="equal-words-rus">Выделить совпадающие слова</button>
+    <button id="unique-rus">Посчитать уникальные слова и выделить их</button>
+    <button id="often-word-rus">Выделить наиболее часто встречающееся слово среди всех массивов</button>
+    <button id="procent-rus">Посчитать процент уникальных слов</button>
+
+    <h2>Массивы английских слов</h2>
+    <div class="container2">
+        <div class="inputs1">
+            <input type="text" class="input-width" id="words101">
+            <input type="text" class="input-width" id="words102">
+            <input type="text" class="input-width" id="words103">
+            <input type="text" class="input-width" id="words104">
+            <input type="text" class="input-width" id="words105">
+            <input type="text" class="input-width" id="words106">
+            <input type="text" class="input-width" id="words107">
+            <input type="text" class="input-width" id="words108">
+            <input type="text" class="input-width" id="words109">
+            <input type="text" class="input-width" id="words110">
+            <input type="text" class="input-width" id="words111">
+            <input type="text" class="input-width" id="words112">
+            <input type="text" class="input-width" id="words113">
+            <input type="text" class="input-width" id="words114">
+            <input type="text" class="input-width" id="words115">
+            <input type="text" class="input-width" id="words116">
+            <input type="text" class="input-width" id="words117">
+            <input type="text" class="input-width" id="words118">
+            <input type="text" class="input-width" id="words119">
+            <input type="text" class="input-width" id="words120">
+        </div>
+        <div class="inputs2">
+            <input type="text" class="input-width" id="words121">
+            <input type="text" class="input-width" id="words122">
+            <input type="text" class="input-width" id="words123">
+            <input type="text" class="input-width" id="words124">
+            <input type="text" class="input-width" id="words125">
+            <input type="text" class="input-width" id="words126">
+            <input type="text" class="input-width" id="words127">
+            <input type="text" class="input-width" id="words128">
+            <input type="text" class="input-width" id="words129">
+            <input type="text" class="input-width" id="words130">
+            <input type="text" class="input-width" id="words131">
+            <input type="text" class="input-width" id="words132">
+            <input type="text" class="input-width" id="words133">
+            <input type="text" class="input-width" id="words134">
+            <input type="text" class="input-width" id="words135">
+            <input type="text" class="input-width" id="words136">
+            <input type="text" class="input-width" id="words137">
+            <input type="text" class="input-width" id="words138">
+            <input type="text" class="input-width" id="words139">
+            <input type="text" class="input-width" id="words140">
+        </div>
+        <div class="inputs3">
+            <input type="text" class="input-width" id="words141">
+            <input type="text" class="input-width" id="words142">
+            <input type="text" class="input-width" id="words143">
+            <input type="text" class="input-width" id="words144">
+            <input type="text" class="input-width" id="words145">
+            <input type="text" class="input-width" id="words146">
+            <input type="text" class="input-width" id="words147">
+            <input type="text" class="input-width" id="words148">
+            <input type="text" class="input-width" id="words149">
+            <input type="text" class="input-width" id="words150">
+            <input type="text" class="input-width" id="words151">
+            <input type="text" class="input-width" id="words152">
+            <input type="text" class="input-width" id="words153">
+            <input type="text" class="input-width" id="words154">
+            <input type="text" class="input-width" id="words155">
+            <input type="text" class="input-width" id="words156">
+            <input type="text" class="input-width" id="words157">
+            <input type="text" class="input-width" id="words158">
+            <input type="text" class="input-width" id="words159">
+            <input type="text" class="input-width" id="words160">
+        </div>
+        <div class="inputs4">
+            <input type="text" class="input-width" id="words161">
+            <input type="text" class="input-width" id="words162">
+            <input type="text" class="input-width" id="words163">
+            <input type="text" class="input-width" id="words164">
+            <input type="text" class="input-width" id="words165">
+            <input type="text" class="input-width" id="words166">
+            <input type="text" class="input-width" id="words167">
+            <input type="text" class="input-width" id="words168">
+            <input type="text" class="input-width" id="words169">
+            <input type="text" class="input-width" id="words170">
+            <input type="text" class="input-width" id="words171">
+            <input type="text" class="input-width" id="words172">
+            <input type="text" class="input-width" id="words173">
+            <input type="text" class="input-width" id="words174">
+            <input type="text" class="input-width" id="words175">
+            <input type="text" class="input-width" id="words176">
+            <input type="text" class="input-width" id="words177">
+            <input type="text" class="input-width" id="words178">
+            <input type="text" class="input-width" id="words179">
+            <input type="text" class="input-width" id="words180">
+        </div>
+        <div class="inputs5">
+            <input type="text" class="input-width" id="words181">
+            <input type="text" class="input-width" id="words182">
+            <input type="text" class="input-width" id="words183">
+            <input type="text" class="input-width" id="words184">
+            <input type="text" class="input-width" id="words185">
+            <input type="text" class="input-width" id="words186">
+            <input type="text" class="input-width" id="words187">
+            <input type="text" class="input-width" id="words188">
+            <input type="text" class="input-width" id="words189">
+            <input type="text" class="input-width" id="words190">
+            <input type="text" class="input-width" id="words191">
+            <input type="text" class="input-width" id="words192">
+            <input type="text" class="input-width" id="words193">
+            <input type="text" class="input-width" id="words194">
+            <input type="text" class="input-width" id="words195">
+            <input type="text" class="input-width" id="words196">
+            <input type="text" class="input-width" id="words197">
+            <input type="text" class="input-width" id="words198">
+            <input type="text" class="input-width" id="words199">
+            <input type="text" class="input-width" id="words200">
+        </div>
+    </div>
+    <h3>Количество уникальных слов</h3>
+    <p id="6uniq-eng">В первом массиве:</p>
+    <p id="7uniq-eng">Во втором массиве:</p>
+    <p id="8uniq-eng">В третьем массиве:</p>
+    <p id="9uniq-eng">В четвертом массиве:</p>
+    <p id="10uniq-eng">В пятом массиве:</p>
+    <p id="alluniq-eng">Среди всех массивов:</p>
+    <h3>Наиболее частро встречающееся слово</h3>
+    <p id="6often-eng">В первом массиве:</p>
+    <p id="7often-eng">Во втором массиве:</p>
+    <p id="8often-eng">В третьем массиве:</p>
+    <p id="9often-eng">В четвертом массиве:</p>
+    <p id="10often-eng">В пятом массиве:</p>
+    <p id="alloften-eng">Среди всех массивов:</p>
+    <button id="sort-eng">Сортировка массивов английских слов</button>
+    <button id="equal-words-eng">Выделить совпадающие слова</button>
+    <button id="unique-eng">Посчитать уникальные слова и выделить их</button>
+    <button id="often-word-eng">Выделить наиболее часто встречающееся слово среди всех массивов</button>
+    <button id="procent-eng">Посчитать процент уникальных слов</button>
+    <script src="./main.js"></script>
+</body>
+
+</html>
