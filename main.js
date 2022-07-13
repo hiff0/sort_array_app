@@ -12,7 +12,7 @@ const readArray = (number) => {
     for (let i = 20 * (number - 1) + 1; i <= number * 20; i += 1) {
         const word = document.getElementById(`words${i}`).value;
         array.push(word.trim());
-        if (!/[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~0-9]/.test(word.trim())) {
+        if (/[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~0-9]/.test(word.trim())) {
             alert('В массивах есть не только буквы');
             return false;
         }
